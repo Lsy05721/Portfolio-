@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import { GraduationCap, Mail, Github, Linkedin, FileText, Gamepad2, ArrowRight } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import homepagePhoto from "../imports/img-5303.jpg"
+import homepagePhoto from "../../imports/img-5303.jpg";
 
 export default function Home() {
 
