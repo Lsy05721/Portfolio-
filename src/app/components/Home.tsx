@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import { GraduationCap, Mail, Github, Linkedin, FileText, Gamepad2, ArrowRight } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import heroImage from "../../imports/83318833107bb4d85aabf6409fafe0ed.jpg";
+import homepagePhoto from "../imports/IMG_5303.JPG"
 
 export default function Home() {
 
@@ -57,11 +57,11 @@ export default function Home() {
           {/* Right: Featured Visual */}
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden border border-purple-500/20 shadow-2xl shadow-purple-900/20">
-              <img
-                src={heroImage}
+             <img
+                src={homepagePhoto}
                 alt="Portfolio image"
                 className="w-full h-full object-cover"
-              />
+                  />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent"></div>
             </div>
 
