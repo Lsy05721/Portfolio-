@@ -1,0 +1,32 @@
+import mymath
+
+
+def main():
+
+    # Solve Ax + B = 0
+    print("Solve Ax + B = 0")
+
+    A = float(input("Enter value for A: "))
+    B = float(input("Enter value for B: "))
+
+    x = mymath.SolveAxPlusB(A, B)
+
+    print("The value of x is:", x)
+
+    print()
+
+
+    # Solve A^2 + B^2 = C^2
+    print("Solve A^2 + B^2 = C^2")
+
+    A = float(input("Enter value for A: "))
+    B = float(input("Enter value for B: "))
+
+    C = mymath.SolveHypotenuse(A, B)
+
+    print("The value of C is:", C)
+
+
+# required grading format
+if __name__ == "__main__":
+    main()

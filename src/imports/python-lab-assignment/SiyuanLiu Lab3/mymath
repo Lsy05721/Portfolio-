@@ -1,0 +1,18 @@
+import math
+
+def SolveAxPlusB(A, B):
+    """
+    Solves Ax + B = 0 for x
+    Returns x
+    """
+    if A == 0:
+        return None
+    return -B / A
+
+
+def SolveHypotenuse(A, B):
+    """
+    Solves A^2 + B^2 = C^2 for C
+    Returns C
+    """
+    return math.sqrt(A**2 + B**2)
